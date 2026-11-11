@@ -1,0 +1,9 @@
+{
+  "instituicao": "IBGE",
+  "url": "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?intrarregiao=UF&formato=application/vnd.geo%2Bjson&qualidade=minima",
+  "documentacao": "https://servicodados.ibge.gov.br/api/docs/malhas?versao=3",
+  "acesso": "2026-11-11",
+  "unidades": 27,
+  "identificador": "properties.codarea",
+  "observacao": "Malha simplificada de referência para visualização. Não é uma medida da amostra."
+}

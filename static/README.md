@@ -1,0 +1,1 @@
+Topologia de fundo usada pelo Plotly, obtida de https://cdn.plot.ly/un/world_110m.json em 2026-11-11. A geometria temática das UFs é a malha oficial do IBGE em assets/brasil_uf.geojson. Este arquivo permite renderizar o mapa sem acessar a CDN durante o uso.

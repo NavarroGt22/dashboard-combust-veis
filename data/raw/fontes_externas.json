@@ -1,0 +1,16 @@
+{
+  "fontes": [
+    {
+      "arquivo": "ca-2018-02.csv",
+      "url_oficial": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "url_download": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "url_final": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "sha256": "a02254e7b66a7fece98aad131216ff036ea11bdba2885aca6d828c5121704ec0",
+      "bytes": 86572418,
+      "baixado_em_utc": "2026-11-11T17:01:26.512812+00:00",
+      "instituicao": "ANP",
+      "periodo": "segundo semestre de 2018",
+      "observacao": "Complemento oficial aos seis arquivos inicialmente fornecidos, obtido para incluir 2018 no recorte de julho a outubro."
+    }
+  ]
+}

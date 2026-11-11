@@ -1,0 +1,1999 @@
+{
+  "gerado_em_utc": "2026-11-11T17:09:28.001619+00:00",
+  "fontes": [
+    {
+      "arquivo": "ca-2017-02.csv",
+      "bytes": 52899378,
+      "encoding": "utf-8-sig",
+      "separador": ";",
+      "linhas_lidas": 300947,
+      "sha256": "8a408ff62ec03e29c73efe88594505d1a1708682be61d6cd055a21bd6e37b70a",
+      "linhas_validas_antes_deduplicacao": 300947,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 213,
+        "Complemento": 224282,
+        "Bairro": 958,
+        "Cep": 0,
+        "Valor de Compra": 169927
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2017": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 300947
+    },
+    {
+      "arquivo": "ca-2018-01.csv",
+      "bytes": 83274897,
+      "encoding": "utf-8-sig",
+      "separador": ",",
+      "linhas_lidas": 469833,
+      "sha256": "87aa6f237c472787e0268d63022ff6c57f31612315cd60e2680b8748eefbdffd",
+      "linhas_validas_antes_deduplicacao": 469833,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 351,
+        "Complemento": 348154,
+        "Bairro": 1421,
+        "Cep": 0,
+        "Valor de Compra": 281646
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2018": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 469833
+    },
+    {
+      "arquivo": "ca-2018-02.csv",
+      "bytes": 86572418,
+      "encoding": "utf-8-sig",
+      "separador": ";",
+      "linhas_lidas": 493169,
+      "sha256": "a02254e7b66a7fece98aad131216ff036ea11bdba2885aca6d828c5121704ec0",
+      "proveniencia_externa": {
+        "arquivo": "ca-2018-02.csv",
+        "url_oficial": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+        "url_download": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+        "url_final": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+        "sha256": "a02254e7b66a7fece98aad131216ff036ea11bdba2885aca6d828c5121704ec0",
+        "bytes": 86572418,
+        "baixado_em_utc": "2026-11-11T17:01:26.512812+00:00",
+        "instituicao": "ANP",
+        "periodo": "segundo semestre de 2018",
+        "observacao": "Complemento oficial aos seis arquivos inicialmente fornecidos, obtido para incluir 2018 no recorte de julho a outubro."
+      },
+      "linhas_validas_antes_deduplicacao": 493169,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 470,
+        "Complemento": 366996,
+        "Bairro": 1537,
+        "Cep": 0,
+        "Valor de Compra": 294866
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2018": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 493169
+    },
+    {
+      "arquivo": "ca-2019-02.csv",
+      "bytes": 89947953,
+      "encoding": "utf-8-sig",
+      "separador": ",",
+      "linhas_lidas": 507299,
+      "sha256": "f9985d88d089c984c92f5bd9c9d55340f0c48caf65fea9de3b317ec234b48f90",
+      "linhas_validas_antes_deduplicacao": 507299,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 278,
+        "Complemento": 376233,
+        "Bairro": 1970,
+        "Cep": 0,
+        "Valor de Compra": 316569
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2019": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 507299
+    },
+    {
+      "arquivo": "ca-2021-02.csv",
+      "bytes": 81317769,
+      "encoding": "cp1252",
+      "separador": ";",
+      "linhas_lidas": 472856,
+      "sha256": "4fae51c8cf5191b2e32dc3000511f0a5925f2c3cbbf3d8d50fccbbb5f3718414",
+      "linhas_validas_antes_deduplicacao": 472856,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 192,
+        "Complemento": 377097,
+        "Bairro": 1119,
+        "Cep": 0,
+        "Valor de Compra": 472856
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2021": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 472856
+    },
+    {
+      "arquivo": "ca-2022-02.csv",
+      "bytes": 65322343,
+      "encoding": "utf-8-sig",
+      "separador": ",",
+      "linhas_lidas": 378078,
+      "sha256": "a02d048c5b6518d0b1b606a3fca3d14229b9f75a2aee09d6b1d40a96b516d164",
+      "linhas_validas_antes_deduplicacao": 378078,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 176,
+        "Complemento": 297555,
+        "Bairro": 901,
+        "Cep": 0,
+        "Valor de Compra": 378078
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2022": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 378078
+    },
+    {
+      "arquivo": "ca-2023-02.csv",
+      "bytes": 81132628,
+      "encoding": "utf-8-sig",
+      "separador": ",",
+      "linhas_lidas": 472424,
+      "sha256": "e9f5cc0d934233dd43437c97b97795ff723294a3d7a7250e2621c74c64f451dd",
+      "linhas_validas_antes_deduplicacao": 472424,
+      "linhas_rejeitadas": 0,
+      "rejeicoes_por_motivo": {
+        "data_invalida": 0,
+        "uf_invalida": 0,
+        "municipio_ausente": 0,
+        "produto_ausente": 0,
+        "preco_invalido_nao_positivo_ou_nao_finito": 0,
+        "unidade_invalida_ou_incompativel": 0
+      },
+      "colunas_opcionais_ausentes": [],
+      "campos_opcionais_vazios": {
+        "Regiao - Sigla": 0,
+        "CNPJ da Revenda": 0,
+        "Revenda": 0,
+        "Bandeira": 0,
+        "Nome da Rua": 0,
+        "Numero Rua": 140,
+        "Complemento": 363280,
+        "Bairro": 854,
+        "Cep": 0,
+        "Valor de Compra": 472424
+      },
+      "cnpj_ausente": 0,
+      "cnpj_invalido_nao_vazio": 0,
+      "regiao_divergente_da_uf": 0,
+      "identidades_por_endereco": 0,
+      "registros_sem_identidade_de_posto": 0,
+      "produtos_nao_previstos": [],
+      "meses_por_ano": {
+        "2023": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicatas_removidas": 0,
+      "linhas_tratadas": 472424
+    }
+  ],
+  "fontes_externas": [
+    {
+      "arquivo": "ca-2018-02.csv",
+      "url_oficial": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "url_download": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "url_final": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "sha256": "a02254e7b66a7fece98aad131216ff036ea11bdba2885aca6d828c5121704ec0",
+      "bytes": 86572418,
+      "baixado_em_utc": "2026-11-11T17:01:26.512812+00:00",
+      "instituicao": "ANP",
+      "periodo": "segundo semestre de 2018",
+      "observacao": "Complemento oficial aos seis arquivos inicialmente fornecidos, obtido para incluir 2018 no recorte de julho a outubro."
+    }
+  ],
+  "total_linhas_lidas": 3094606,
+  "total_rejeitadas": 0,
+  "total_duplicatas_removidas": 0,
+  "total_registros_tratados": 3094606,
+  "total_postos_identificados": 21884,
+  "total_municipios": 525,
+  "registros_sem_identidade_de_posto": 0,
+  "reconciliacao_ok": true,
+  "precos_positivos_finitos": true,
+  "datas_validas": true,
+  "ufs_validas": true,
+  "cobertura": [
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14223
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17813
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20953
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23377
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1135
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8423
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 11466
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 13220
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 14838
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 841
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 7041
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9666
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11187
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12508
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 703
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8588
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 11914
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 13728
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 15373
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 855
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 7139
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 10001
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11433
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12808
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 684
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 6905
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9740
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11155
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12544
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 686
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 15772
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21383
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24363
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27472
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1452
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13194
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17837
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20372
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23034
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1250
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13454
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18582
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21294
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24094
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1254
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14351
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19789
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22237
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25487
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1277
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 11820
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 16615
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18503
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21205
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1171
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12231
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17131
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19263
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 22759
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1187
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14142
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 20205
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22305
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25550
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1315
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14373
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21167
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23510
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26544
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1292
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12579
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18682
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20444
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23143
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1154
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14991
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22276
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24511
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27717
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1310
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13022
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19638
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21638
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24455
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1224
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12413
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18632
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20551
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23248
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1138
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14915
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22949
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24890
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 28070
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1378
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12818
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19810
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21499
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24153
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1247
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13463
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 20547
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22211
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25048
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1276
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14356
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22364
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24270
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27203
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1473
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12339
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19175
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20683
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23235
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1235
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13743
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21766
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23528
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26228
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1427
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8098
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 14691
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16109
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 13572
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18134
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1295
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9015
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 16567
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18263
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15127
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20490
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1425
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8734
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15838
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17403
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14482
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 19641
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1319
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8300
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15236
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16652
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 13992
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18692
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1372
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9627
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17589
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19182
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16091
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21514
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1606
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9414
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17148
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18420
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15597
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20695
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1526
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9996
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18176
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19372
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16343
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21917
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1558
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 11965
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22090
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23455
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 19665
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26424
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1889
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5389
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9968
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 10699
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 9148
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12154
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 870
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 3250
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 5787
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 7713
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 6974
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 8849
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 916
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5480
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9243
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11627
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 10378
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 13438
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1257
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5682
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9398
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11662
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 10560
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 13541
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1245
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9588
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15193
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17641
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16104
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20770
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1564
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9950
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15338
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17990
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16659
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21321
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1667
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8603
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 13469
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 15629
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14567
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18534
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1449
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 10186
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15939
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18476
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 17141
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21858
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1700
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9168
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 14618
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16931
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15656
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 19956
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1572
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8582
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 13664
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 15981
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14650
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18822
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1488
+    }
+  ],
+  "metodologia": [
+    "Médias, medianas, mínimos e máximos de preços nominais por observação; não ponderados por volume ou população.",
+    "GASOLINA foi normalizada para GASOLINA COMUM; produtos e unidades são separados; GNV usa R$/m³, demais produtos R$/L.",
+    "UF válida determina a região. Datas DD/MM/AAAA e ISO AAAA-MM-DD são aceitas explicitamente, sem inferência MM/DD. Datas inválidas, preços não positivos/não finitos e unidades incompatíveis são rejeitados.",
+    "CNPJ é limpo e validado com dois dígitos verificadores. Sem CNPJ válido, identidade por endereço exige UF, município, revenda, rua e número ou CEP; sem informação suficiente, posto_id permanece nulo e não entra em postos.",
+    "Postos conta identidades distintas conhecidas, incluindo identidades de endereço; não representa necessariamente a população de postos nem soma de contagens mensais.",
+    "Duplicatas são observações idênticas em todos os campos normalizados, incluindo preço de compra e endereço quando existentes; arquivo de origem não integra a chave.",
+    "Meses e anos ausentes não são preenchidos, interpolados ou inferidos. A cobertura efetiva é calculada a partir das datas observadas de todos os CSVs presentes.",
+    "Resumos anuais usam julho–outubro dos anos disponíveis; meses ou anos sem observações nesse recorte não recebem preços inferidos.",
+    "CSV complementar de origem externa possui URL oficial, data de download e SHA-256 no manifesto e na auditoria por arquivo; o hash declarado é verificado durante o processamento.",
+    "Comparação eleitoral é descritiva de julho e outubro; os dados fornecidos não identificam causalidade política.",
+    "Painel balanceado usa UF+município presente nos quatro meses julho–outubro, separadamente por ano e produto; a composição pode mudar entre anos e os postos podem mudar dentro do painel.",
+    "No painel, médias e medianas são por observação; variação percentual é normalizada pela média observada de julho, mantendo o procedimento de agrupamento do notebook.",
+    "O notebook original é referência metodológica, sem executar código nem reutilizar suas saídas salvas, que referenciam arquivos diferentes.",
+    "Preço de compra, endereço e região informada são usados na auditoria/deduplicação quando presentes; ausência desses campos opcionais não causa imputação de preços."
+  ]
+}

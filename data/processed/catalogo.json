@@ -1,0 +1,1799 @@
+{
+  "versao_schema": 1,
+  "gerado_em_utc": "2026-11-11T17:09:28.001619+00:00",
+  "arquivos_fonte": [
+    "ca-2017-02.csv",
+    "ca-2018-01.csv",
+    "ca-2018-02.csv",
+    "ca-2019-02.csv",
+    "ca-2021-02.csv",
+    "ca-2022-02.csv",
+    "ca-2023-02.csv"
+  ],
+  "fontes_externas": [
+    {
+      "arquivo": "ca-2018-02.csv",
+      "url_oficial": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "url_download": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "url_final": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/shpc/dsas/ca/ca-2018-02.csv",
+      "sha256": "a02254e7b66a7fece98aad131216ff036ea11bdba2885aca6d828c5121704ec0",
+      "bytes": 86572418,
+      "baixado_em_utc": "2026-11-11T17:01:26.512812+00:00",
+      "instituicao": "ANP",
+      "periodo": "segundo semestre de 2018",
+      "observacao": "Complemento oficial aos seis arquivos inicialmente fornecidos, obtido para incluir 2018 no recorte de julho a outubro."
+    }
+  ],
+  "anos": [
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "produtos": [
+    "DIESEL",
+    "DIESEL S10",
+    "ETANOL",
+    "GASOLINA ADITIVADA",
+    "GASOLINA COMUM",
+    "GNV"
+  ],
+  "regioes": [
+    "Centro-Oeste",
+    "Nordeste",
+    "Norte",
+    "Sudeste",
+    "Sul"
+  ],
+  "ufs": [
+    "AC",
+    "AL",
+    "AM",
+    "AP",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MG",
+    "MS",
+    "MT",
+    "PA",
+    "PB",
+    "PE",
+    "PI",
+    "PR",
+    "RJ",
+    "RN",
+    "RO",
+    "RR",
+    "RS",
+    "SC",
+    "SE",
+    "SP",
+    "TO"
+  ],
+  "meses_por_ano": {
+    "2017": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "2018": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "2019": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "2021": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "2022": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "2023": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "unidades_por_produto": {
+    "DIESEL": [
+      "R$/L"
+    ],
+    "DIESEL S10": [
+      "R$/L"
+    ],
+    "ETANOL": [
+      "R$/L"
+    ],
+    "GASOLINA ADITIVADA": [
+      "R$/L"
+    ],
+    "GASOLINA COMUM": [
+      "R$/L"
+    ],
+    "GNV": [
+      "R$/m³"
+    ]
+  },
+  "total_registros": 3094606,
+  "total_postos_identificados": 21884,
+  "data_minima": "2017-07-03",
+  "data_maxima": "2023-12-29",
+  "arquivos_parquet": [
+    "data/processed/registros/ano=2017/dados.parquet",
+    "data/processed/registros/ano=2018/dados.parquet",
+    "data/processed/registros/ano=2019/dados.parquet",
+    "data/processed/registros/ano=2021/dados.parquet",
+    "data/processed/registros/ano=2022/dados.parquet",
+    "data/processed/registros/ano=2023/dados.parquet"
+  ],
+  "diretorio_registros": "data/processed/registros",
+  "cobertura": [
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14223
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17813
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20953
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23377
+    },
+    {
+      "ano": 2017,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1135
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8423
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 11466
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 13220
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 14838
+    },
+    {
+      "ano": 2017,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 841
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 7041
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9666
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11187
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12508
+    },
+    {
+      "ano": 2017,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 703
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8588
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 11914
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 13728
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 15373
+    },
+    {
+      "ano": 2017,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 855
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 7139
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 10001
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11433
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12808
+    },
+    {
+      "ano": 2017,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 684
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 6905
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9740
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11155
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12544
+    },
+    {
+      "ano": 2017,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 686
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 15772
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21383
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24363
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27472
+    },
+    {
+      "ano": 2018,
+      "mes": 1,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1452
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13194
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17837
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20372
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23034
+    },
+    {
+      "ano": 2018,
+      "mes": 2,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1250
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13454
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18582
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21294
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24094
+    },
+    {
+      "ano": 2018,
+      "mes": 3,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1254
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14351
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19789
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22237
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25487
+    },
+    {
+      "ano": 2018,
+      "mes": 4,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1277
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 11820
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 16615
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18503
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21205
+    },
+    {
+      "ano": 2018,
+      "mes": 5,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1171
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12231
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17131
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19263
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 22759
+    },
+    {
+      "ano": 2018,
+      "mes": 6,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1187
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14142
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 20205
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22305
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25550
+    },
+    {
+      "ano": 2018,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1315
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14373
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21167
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23510
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26544
+    },
+    {
+      "ano": 2018,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1292
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12579
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18682
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20444
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23143
+    },
+    {
+      "ano": 2018,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1154
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14991
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22276
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24511
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27717
+    },
+    {
+      "ano": 2018,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1310
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13022
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19638
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21638
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24455
+    },
+    {
+      "ano": 2018,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1224
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12413
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18632
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20551
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23248
+    },
+    {
+      "ano": 2018,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1138
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14915
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22949
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24890
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 28070
+    },
+    {
+      "ano": 2019,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1378
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12818
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19810
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 21499
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 24153
+    },
+    {
+      "ano": 2019,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1247
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13463
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 20547
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 22211
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 25048
+    },
+    {
+      "ano": 2019,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1276
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 14356
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22364
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 24270
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 27203
+    },
+    {
+      "ano": 2019,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1473
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 12339
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 19175
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 20683
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 23235
+    },
+    {
+      "ano": 2019,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1235
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 13743
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 21766
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23528
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26228
+    },
+    {
+      "ano": 2019,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1427
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8098
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 14691
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16109
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 13572
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18134
+    },
+    {
+      "ano": 2021,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1295
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9015
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 16567
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18263
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15127
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20490
+    },
+    {
+      "ano": 2021,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1425
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8734
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15838
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17403
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14482
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 19641
+    },
+    {
+      "ano": 2021,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1319
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8300
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15236
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16652
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 13992
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18692
+    },
+    {
+      "ano": 2021,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1372
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9627
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17589
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19182
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16091
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21514
+    },
+    {
+      "ano": 2021,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1606
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9414
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 17148
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18420
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15597
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20695
+    },
+    {
+      "ano": 2021,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1526
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9996
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 18176
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 19372
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16343
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21917
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1558
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 11965
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 22090
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 23455
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 19665
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 26424
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1889
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5389
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9968
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 10699
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 9148
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 12154
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 870
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 3250
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 5787
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 7713
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 6974
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 8849
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 916
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5480
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9243
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11627
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 10378
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 13438
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1257
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 5682
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 9398
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 11662
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 10560
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 13541
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1245
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9588
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15193
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17641
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16104
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 20770
+    },
+    {
+      "ano": 2023,
+      "mes": 7,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1564
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9950
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15338
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 17990
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 16659
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21321
+    },
+    {
+      "ano": 2023,
+      "mes": 8,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1667
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8603
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 13469
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 15629
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14567
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18534
+    },
+    {
+      "ano": 2023,
+      "mes": 9,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1449
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 10186
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 15939
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 18476
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 17141
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 21858
+    },
+    {
+      "ano": 2023,
+      "mes": 10,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1700
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 9168
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 14618
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 16931
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 15656
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 19956
+    },
+    {
+      "ano": 2023,
+      "mes": 11,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1572
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "DIESEL",
+      "unidade": "R$/L",
+      "registros": 8582
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "DIESEL S10",
+      "unidade": "R$/L",
+      "registros": 13664
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "ETANOL",
+      "unidade": "R$/L",
+      "registros": 15981
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GASOLINA ADITIVADA",
+      "unidade": "R$/L",
+      "registros": 14650
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GASOLINA COMUM",
+      "unidade": "R$/L",
+      "registros": 18822
+    },
+    {
+      "ano": 2023,
+      "mes": 12,
+      "produto": "GNV",
+      "unidade": "R$/m³",
+      "registros": 1488
+    }
+  ],
+  "recorte_padrao": {
+    "mes_inicial": 7,
+    "mes_final": 10
+  },
+  "anos_sem_recorte_padrao": [],
+  "colunas": [
+    "data_coleta",
+    "ano",
+    "mes",
+    "regiao",
+    "uf",
+    "municipio",
+    "produto",
+    "preco_venda",
+    "unidade",
+    "posto_id",
+    "cnpj",
+    "revenda",
+    "bandeira",
+    "arquivo_origem"
+  ],
+  "relatorio_qualidade": "data/processed/relatorio_qualidade.json",
+  "exportacoes": [
+    "outputs/datasets/cobertura.csv",
+    "outputs/datasets/painel_balanceado_municipios.csv",
+    "outputs/datasets/registros_rejeitados.csv",
+    "outputs/datasets/resumo_anual_recorte.csv",
+    "outputs/datasets/resumo_mensal_brasil.csv",
+    "outputs/datasets/resumo_mensal_estado.csv",
+    "outputs/datasets/resumo_mensal_municipio.csv",
+    "outputs/datasets/resumo_mensal_regiao.csv",
+    "outputs/datasets/variacao_eleitoral.csv"
+  ]
+}

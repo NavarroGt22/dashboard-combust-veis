@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.streamlit/secrets.toml
+# Os CSVs brutos acompanham o ZIP completo. O GitHub usa os dados tratados.
+data/raw/*.csv
+.env
+.env.*
+*.zip
