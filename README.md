@@ -2,6 +2,8 @@
 
 Dashboard interativo em **Streamlit e Plotly**, processamento em **Pandas/PyArrow** e apresentação editável gerada com **python-pptx**. Todos os indicadores são calculados a partir dos arquivos incluídos no pacote.
 
+Plano de evolução: [ROADMAP.md](ROADMAP.md).
+
 ## Início rápido
 
 Requer Python 3.11 ou 3.12. Extraia o ZIP e abra um terminal na pasta `dashboard_combustiveis`.
