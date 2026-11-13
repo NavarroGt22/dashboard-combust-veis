@@ -10,23 +10,23 @@ Recorte padrão: **gasolina comum**, **julho a outubro**, preços nominais (R$/L
 
 ### Média anual (julho–outubro)
 
-![Média da gasolina comum por ano no recorte julho–outubro](docs/imagens/media_anual_gasolina.svg)
+![Média da gasolina comum por ano no recorte julho–outubro](docs/imagens/media_anual_gasolina.png)
 
 ### Evolução mensal por ano
 
-![Evolução mensal da gasolina comum de julho a outubro](docs/imagens/evolucao_mensal_gasolina.svg)
+![Evolução mensal da gasolina comum de julho a outubro](docs/imagens/evolucao_mensal_gasolina.png)
 
 ### Anos eleitorais (2018 e 2022)
 
-![Comparação julho versus outubro em 2018 e 2022](docs/imagens/variacao_eleitoral.svg)
+![Comparação julho versus outubro em 2018 e 2022](docs/imagens/variacao_eleitoral.png)
 
 Em **2018** a média sobe cerca de **+4,8%** de julho a outubro; em **2022** cai cerca de **−19,7%**. A variação é descritiva: não demonstra causalidade eleitoral ou política.
 
 ### Ranking por UF em 2022
 
-![Dez UFs com maiores e menores médias em 2022](docs/imagens/ranking_uf_2022.svg)
+![Dez UFs com maiores e menores médias em 2022](docs/imagens/ranking_uf_2022.png)
 
-Para regenerar os SVGs a partir dos CSVs processados:
+Para regenerar os gráficos a partir dos CSVs processados:
 
 ```bash
 python scripts/gerar_graficos_readme.py
@@ -131,7 +131,7 @@ dashboard_combustiveis/
   fuel_dashboard/           # consultas, cálculos e visualização
   assets/                  # estilo e malha oficial do IBGE
   static/                  # topologia local para o mapa sem conexão
-  docs/imagens/            # gráficos estáticos do README (SVG)
+  docs/imagens/            # gráficos estáticos do README (PNG)
   data/
     raw/                   # seis CSVs originais, complemento 2018 e notebook
     processed/             # Parquet, catálogo e qualidade
