@@ -4,6 +4,34 @@ Dashboard interativo em **Streamlit e Plotly**, processamento em **Pandas/PyArro
 
 Plano de evolução: [ROADMAP.md](ROADMAP.md).
 
+## Prévia dos resultados
+
+Recorte padrão: **gasolina comum**, **julho a outubro**, preços nominais (R$/L). Os gráficos abaixo usam os mesmos resumos em `outputs/datasets`. Para explorar filtros, mapa e tabela, rode o dashboard localmente.
+
+### Média anual (julho–outubro)
+
+![Média da gasolina comum por ano no recorte julho–outubro](docs/imagens/media_anual_gasolina.svg)
+
+### Evolução mensal por ano
+
+![Evolução mensal da gasolina comum de julho a outubro](docs/imagens/evolucao_mensal_gasolina.svg)
+
+### Anos eleitorais (2018 e 2022)
+
+![Comparação julho versus outubro em 2018 e 2022](docs/imagens/variacao_eleitoral.svg)
+
+Em **2018** a média sobe cerca de **+4,8%** de julho a outubro; em **2022** cai cerca de **−19,7%**. A variação é descritiva: não demonstra causalidade eleitoral ou política.
+
+### Ranking por UF em 2022
+
+![Dez UFs com maiores e menores médias em 2022](docs/imagens/ranking_uf_2022.svg)
+
+Para regenerar os SVGs a partir dos CSVs processados:
+
+```bash
+python scripts/gerar_graficos_readme.py
+```
+
 ## Início rápido
 
 Requer Python 3.11 ou 3.12. Extraia o ZIP e abra um terminal na pasta `dashboard_combustiveis`.
@@ -103,12 +131,14 @@ dashboard_combustiveis/
   fuel_dashboard/           # consultas, cálculos e visualização
   assets/                  # estilo e malha oficial do IBGE
   static/                  # topologia local para o mapa sem conexão
+  docs/imagens/            # gráficos estáticos do README (SVG)
   data/
     raw/                   # seis CSVs originais, complemento 2018 e notebook
     processed/             # Parquet, catálogo e qualidade
   scripts/
     preparar_dados.py
     gerar_slides.py
+    gerar_graficos_readme.py
   tests/
   outputs/
     datasets/              # resumos mensais e análises complementares

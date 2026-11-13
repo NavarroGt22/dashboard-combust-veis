@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Média da gasolina comum  julho a outubro</title>
+  <desc id="desc">Preço médio nominal por ano no recorte julhooutubro.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071321"/>
+      <stop offset="100%" stop-color="#0d2133"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#48b9ee"/>
+      <stop offset="100%" stop-color="#38d5c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="420" rx="16" fill="url(#bg)"/>
+  <text x="36" y="42" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Gasolina comum · média julhooutubro</text>
+  <text x="36" y="68" fill="#8aa3b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Preço médio nominal (R$/L) · amostra ANP · sem correção pela inflação</text>
+
+  <!-- grid -->
+  <g stroke="#193346" stroke-width="1">
+    <line x1="80" y1="110" x2="880" y2="110"/>
+    <line x1="80" y1="170" x2="880" y2="170"/>
+    <line x1="80" y1="230" x2="880" y2="230"/>
+    <line x1="80" y1="290" x2="880" y2="290"/>
+    <line x1="80" y1="350" x2="880" y2="350"/>
+  </g>
+  <g fill="#6f879c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" text-anchor="end">
+    <text x="72" y="114">R$ 7,00</text>
+    <text x="72" y="174">R$ 5,25</text>
+    <text x="72" y="234">R$ 3,50</text>
+    <text x="72" y="294">R$ 1,75</text>
+    <text x="72" y="354">R$ 0,00</text>
+  </g>
+
+  <!-- bars: scale y = 350 - (price/7)*240 -->
+  <!-- 2017 3.783 -> 220.3 -->
+  <rect x="120" y="220.3" width="90" height="129.7" rx="8" fill="url(#bar)"/>
+  <text x="165" y="210" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 3,78</text>
+  <text x="165" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2017</text>
+
+  <!-- 2018 4.609 -> 192.0 -->
+  <rect x="250" y="192.0" width="90" height="158.0" rx="8" fill="url(#bar)"/>
+  <text x="295" y="182" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 4,61</text>
+  <text x="295" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2018</text>
+
+  <!-- 2019 4.387 -> 199.6 -->
+  <rect x="380" y="199.6" width="90" height="150.4" rx="8" fill="url(#bar)"/>
+  <text x="425" y="190" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 4,39</text>
+  <text x="425" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2019</text>
+
+  <!-- 2021 6.035 -> 143.1 -->
+  <rect x="510" y="143.1" width="90" height="206.9" rx="8" fill="url(#bar)"/>
+  <text x="555" y="133" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 6,04</text>
+  <text x="555" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2021</text>
+
+  <!-- 2022 5.485 -> 162.0 -->
+  <rect x="640" y="162.0" width="90" height="188.0" rx="8" fill="url(#bar)"/>
+  <text x="685" y="152" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 5,48</text>
+  <text x="685" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2022</text>
+
+  <!-- 2023 5.729 -> 153.6 -->
+  <rect x="770" y="153.6" width="90" height="196.4" rx="8" fill="url(#bar)"/>
+  <text x="815" y="144" text-anchor="middle" fill="#e8f2fa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">R$ 5,73</text>
+  <text x="815" y="378" text-anchor="middle" fill="#b7c9d8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">2023</text>
+
+  <text x="36" y="406" fill="#6f879c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Fonte: ANP · recorte julhooutubro · média das observações (não ponderada por vendas)</text>
+</svg>
